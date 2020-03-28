@@ -22,7 +22,4 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <allow-navigation href="about:*" />
-    <vs:features>
-      <vs:feature>onesignal-cordova-plugin</vs:feature>
-    </vs:features>
 </widget>

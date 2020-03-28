@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.esurat.pemkabgarut" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
+    <name>Esurat Pemkab Garut</name>
+    <description>Aplikasi Surat Menyurat dan Disposisi Online</description>
+    <author email="diskominfo@garutkab.go.id" href="http://diskominfo.garutkab.go.id">
+        Diskominfo Garut
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="about:*" />
+    <vs:features>
+        <vs:feature>onesignal-cordova-plugin</vs:feature>
+    </vs:features>
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
